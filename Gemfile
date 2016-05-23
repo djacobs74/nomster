@@ -43,6 +43,8 @@ gem 'sprockets', '2.11.0'
 
 gem 'sass-rails'
 
+gem 'kaminari'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
