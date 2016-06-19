@@ -24,9 +24,11 @@ body {
 
 .navbar.navbar-inverse {
   background:url('/assets/binding_dark.png');
-  border-radius: 0;
+ margin-bottom:0;
   box-shadow: 0px 1px 3px #2a2a2a;
+
 }
+
 
 .navbar-inverse .navbar-brand {
 	font-family: pacificoregular;
@@ -78,8 +80,9 @@ blockquote p {
     width: 100%;
     
 }
+
 .navbar.navbar-inverse {
-  background:url('/assets/cartographer.png');
+  
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom:0;
@@ -99,3 +102,4 @@ blockquote p {
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
+
