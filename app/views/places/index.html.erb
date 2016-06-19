@@ -23,7 +23,9 @@
    
 
     <div class="pull-right">
-      <%= image_tag(place.photos.last.picture, :class => "img-responsive") %>
+      <% if place.photos.present? %>
+        <%= image_tag(place.photos.last.picture, class: 'img-responsive') %>
+      <% end %>
     </div>
     
 	</div>
