@@ -144,13 +144,15 @@
  </div>
 <% end %>
 
-  <div class="booyah-box col-xs-10 col-xs-offset-1">
+  
       <% @place.photos.each do |photo| %>
-        <%= image_tag photo.picture %>
+      <div class="booyah-box col-xs-6 col-xs-offset-3 picture-text">
+        <%= image_tag photo.picture, class: 'front-pics' %>
         <%= photo.caption %>
+        </div>
       <% end %>
-  </div>
-
+      
+    
 
 
 

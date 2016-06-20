@@ -10,13 +10,13 @@
     <div class="item active">
       <%= image_tag 'slider1.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        Find the best Mexican food!
+        Find the best food!
       </div>
     </div>
     <div class="item">
       <%= image_tag 'slider2.jpg' %>
       <div class="carousel-caption">
-        Find the best Mexican food!
+        Find the best food!
       </div>
     </div>
     ...
@@ -58,7 +58,7 @@
 
     <div class="pull-right">
       <% if place.photos.present? %>
-        <%= image_tag(place.photos.last.picture, class: 'img-responsive') %>
+        <%= image_tag(place.photos.last.picture, class: 'img-responsive front-pics',) %>
       <% end %>
     </div>
     

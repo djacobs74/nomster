@@ -95,11 +95,21 @@ blockquote p {
     text-shadow: rgba(0,0,0,0.95) 2px 2px;
     background-color: rgba(0,0,0,0.5);
     width:100%;
+    
     position:absolute;
     left:0;
-}
+  }
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.front-pics {
+  border-radius: 5px;
+}
+
+.picture-text {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
 }
 
